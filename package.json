@@ -1,16 +1,27 @@
 {
   "name": "friendai-be",
   "version": "1.0.0",
-  "description": "",
+  "description": "FriendAI is a Next.js-based AI companion web app that provides a modern UI/UX, authentication, and deployment best practices. It allows users to chat and call with an AI friend, ensuring a seamless and engaging experience.We’re working on bringing you high-quality voice calls with AI. Stay tuned for this exciting feature!",
   "main": "signaling-server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.7.5",
+    "socket": {
+      "io": "^4.7.5"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshVarma1/FriendAi-BE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GaneshVarma1/FriendAi-BE/issues"
+  },
+  "homepage": "https://github.com/GaneshVarma1/FriendAi-BE#readme",
+  "scripts": {
+    "start": "node signaling-server.js"
   }
 }
